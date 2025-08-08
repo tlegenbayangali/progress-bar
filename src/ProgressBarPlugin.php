@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace TlegenBayangali\ProgressBar;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class ProgressBarPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'progress-bar';
     }
 
     public function register(Panel $panel): void

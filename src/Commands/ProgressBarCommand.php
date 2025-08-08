@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace TlegenBayangali\ProgressBar\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ProgressBarCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'progress-bar';
 
     public $description = 'My command';
 
